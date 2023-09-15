@@ -1,0 +1,30 @@
+ul li{
+    list-style-type: none
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    /* gap:1rem ; */
+    /* margin-left: 7rem; */
+    /* padding: 2rem; */
+
+}
+a{
+    margin: 1rem;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+a:hover{
+    text-decoration: underline; 
+    opacity: 0.8;
+    font-weight: 700;
+}
+
