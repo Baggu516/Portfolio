@@ -1,23 +1,32 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Contact from "./components/NavBarComponents/Contact";
-import Home from "./components/NavBarComponents/Home";
+import Contact from "./components/contact-component/Contact";
+import Home from "./components/Home-component/Home";
 import NavBar from "./components/NavBarComponents/NavBar";
-import Projects from "./components/NavBarComponents/Projects";
-import About from "./components/About";
+import Projects from "./components/project-component/Projects";
+import About from "./components/About-component/About";
+import { useState } from "react";
+import Model from "./Model";
 function App() {
+  const [open,setOpen]=useState(true)
+  const openfunc=()=>{
+    setOpen(!open)
+  }
   return (
     <div className="App">
       <BrowserRouter>
-        <NavBar />
+    {!open&&<Model openfunc={openfunc}/>}
+     {open&& 
+     <>
+        <NavBar openfunc={openfunc}/>
         <Routes>
-          {/* <Route path="/" element={<NavBar />}> */}
           <Route index element={<Home />} />
           <Route path="projects" element={<Projects />} />
           <Route path="contact" element={<Contact />} />
           <Route path="about" element={<About />} />
-          {/* <Route path="*" element={<NoPage />} /> */}
         </Routes>
+        </>
+        }
       </BrowserRouter>
     </div>
   );
