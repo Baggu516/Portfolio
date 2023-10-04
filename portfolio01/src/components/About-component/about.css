@@ -183,7 +183,9 @@ footer{
     font-size: medium;
     padding: 0.5rem;
     /* position: absolute; */
-    max-width: 100%;
+    /* bottom: 0; */
+    max-width: 100rem;
+    margin: 0%;
     
 }
 .icon{
@@ -415,7 +417,7 @@ footer{
         display: none;
     }
     .details{
-        width: 15rem;
+        width: 13rem;
         font-size: larger;
     }
     /* .information{
@@ -425,12 +427,46 @@ footer{
     .information{
         display: flex;
         justify-content: center;
-        /* align-items: center; */
+        align-items: center;
         flex-direction: column;
-        width: 18rem;
+        width: 12rem;
         box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
         padding: 1rem;
         border-radius: 1rem;
-        margin-left: 0.5rem;
+        /* margin-left: 0.5rem; */
     }
-}
+    .about{
+        display: flex;
+        justify-content: center;
+        gap:3rem;
+        align-items: center;
+        margin: 0;
+        font-size:small;
+        /* font-weight: 600; */
+        width: 20.5rem;
+        padding: 0;
+        margin-top: 4rem;
+        
+    }
+    .Technical-skills{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 6rem;
+        /* margin-right: 7rem; */
+    
+    
+    }
+    .web-prog{
+        display: flex;
+        justify-content:center;
+        /* gap: 20rem; */
+        align-items: center;
+        margin-top: 3rem;
+        /* margin: 0; */
+        }
+        /* footer{
+            width: 100%;
+        /* } */
+} 

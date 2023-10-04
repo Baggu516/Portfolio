@@ -60,4 +60,20 @@
     margin-bottom: 1rem;
     text-decoration: underline;
   }
+  @media only screen and (max-width: 600px) {
+    .contact-form-container {
+        max-width: 12rem;
+        margin: 2rem auto;
+        padding: 2rem;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        margin-bottom: 10rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 2rem;
+      }
+  }
   

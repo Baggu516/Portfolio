@@ -82,10 +82,22 @@ display: none;
     nav{
         display: flex;
         justify-content: space-between;
-        align-items: center;
-    margin-left:1rem;
-margin-right: 1rem;}
+        align-items: center;}
+    /* margin-left:1rem;
+margin-right: 1rem;} */
     .menu{
         display: block;
+        /* margin-left: 4rem; */
+    }
+    hr{
+        /* display: none; */
+    }
+    .menu-btn{
+        margin: 0;
+        margin-left: 2rem;
+    }
+    .profile-container h2{
+        /* text-decoration: underline; */
+        text-decoration-color: rgb(218, 171, 2);
     }
 }

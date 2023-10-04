@@ -7,12 +7,16 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import {Data,activities,achieve} from "./Data.js"
 import { Link } from "react-router-dom";
+import Footer from "../Footer/Footer";
+
+
+
 const web=["Html","Css","Boostrap","Java-Script","React-js","React-Material UI","git & GitHub"]
 const program=["Python","Java-Script"]
 const About = () => {
   const notify = () => {
     toast(" Downloaded sucessfully", {
-      position: "bottom-right",
+      position: "top-right",
       theme: "light",
       autoClose: 500,
       color: "black",
@@ -128,14 +132,7 @@ const About = () => {
       <ToastContainer />
  
     </div>
-    <footer>
-      <div className="iconss">
-        <ion-icon size="small"name="logo-instagram" className="icon"></ion-icon>
-        <ion-icon size="small"name="logo-facebook"></ion-icon>
-        <ion-icon size="small"name="logo-twitter"></ion-icon>
-      </div>
-      <p>&copy;2019 - 2023 N Bhargav Sai,All rights reserved.</p>
-    </footer>
+    <Footer/>
     </>
   );
 };
