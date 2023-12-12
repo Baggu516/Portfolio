@@ -1,6 +1,6 @@
 export const Data=[{
     college:"Madanapalle Institute of Technology and Science",
-    course:"Bachelor of Technology",
+    course:"Bachelor of Technology(CSE)",
     start:"Aug. 2019 – May 2023",
     location:"Madanapalle, Andhra Pradesh"
 },

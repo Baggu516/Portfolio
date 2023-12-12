@@ -97,8 +97,9 @@ const About = () => {
         // <div key={index}>
           <div className="details" key={index} >
           <div >
-          <h3>{item.college}</h3>
-          <p className="description">{item.course}</p>
+          <h3>{item.course}</h3>
+          <p className="description">{item.college}</p>
+          
           </div>
           <div className="start-location">
           <p className="description1">{item.start}</p>
