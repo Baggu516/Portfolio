@@ -1,7 +1,7 @@
 export const projectData=[{
    title:"Quiz Hub" ,
    img1:"./images/quizz.png",
-   desc:"Developed a web application Quiz Hub  by using React JS that help users to test their knownledge in various fields by taking quiz.",
+   desc:"Developed a web application Quiz Hub  by using React JS and Node Js  that help users to test their knownledge in various fields by taking quiz.",
    link:"https://quizhub01.netlify.app/"
 
 },
@@ -32,4 +32,12 @@ export const projectData=[{
     desc:"Developed a web application Birthday Remainder using React and React Material UI which allows anyone to showcase their photography skills by uploading photos.",
     link:"https://photography01.netlify.app/"
  
- }]
+ },
+ {
+   title:"Live Chat Application" ,
+   img1:"./images/chat.jpeg",
+   desc:"Developed a web application Live Chat Application using React and Node Js (socket.io) which allows you to chat one-to-one or one-to-many.",
+   link:"#"
+
+}
+]

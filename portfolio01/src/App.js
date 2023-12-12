@@ -18,7 +18,10 @@ function App() {
     {!open&&<Model openfunc={openfunc}/>}
      {open&& 
      <>
-        <NavBar openfunc={openfunc}/>
+     <div>
+     <NavBar openfunc={openfunc}/>
+     </div>
+      
         <Routes>
           <Route index element={<Home />} />
           <Route path="projects" element={<Projects />} />
